@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start ./index.js --watch"
+    "start": "pm2 start ./index.js --watch",
+	"stop":"pm2 kill"
   },
   "bin":{
  	"pm2": "./node_modules/.bin/pm2" 
